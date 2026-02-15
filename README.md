@@ -322,25 +322,6 @@ VLA_robotic_manipulator/
 ├── 4_train.py                   # Training pipeline
 ├── 5_evaluate.py                # Evaluation script
 ├── web_interface.py             # Gradio web demo
-├── assignment_guide.py          # Assignment starter template
-│
-├── demo_data/                   # Collected demonstration data
-│   └── lift_demos_*.h5         # HDF5 dataset files
-│
-├── checkpoints/                 # Model checkpoints
-│   └── 20260214_*/             # Timestamped training runs
-│       ├── best_model.pth      # Best model by validation loss
-│       ├── checkpoint_epoch_*.pth
-│       └── training_history.json
-│
-├── logs/                        # TensorBoard logs
-│   └── 20260214_*/
-│
-├── docs/                        # Documentation
-│   ├── VLA_Report.pdf          # Technical report
-│   ├── VLA_Presentation.pptx   # Presentation slides
-│   └── Video_Script.md         # Video presentation script
-│
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # This file
 └── LICENSE                      # MIT License
