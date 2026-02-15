@@ -35,12 +35,7 @@ During evaluation, a fundamental issue was discovered: the model achieves 100% s
   - [Evaluation](#3-evaluation)
   - [Web Interface](#4-web-interface)
 - [Project Structure](#-project-structure)
-- [Model Architecture](#-model-architecture)
-- [Results](#-results)
-- [Known Issues](#-known-issues)
 - [Future Improvements](#-future-improvements)
-- [Documentation](#-documentation)
-- [Citation](#-citation)
 - [License](#-license)
 
 ## ✨ Features
@@ -472,28 +467,6 @@ RGB Images (B, T, 3, 224, 224)
 - [ ] Compositional language understanding
 - [ ] Real robot hardware deployment
 
-## 📚 Documentation
-
-- **[Technical Report](docs/VLA_Report.pdf)**: Comprehensive 19-page analysis including architecture, training, results, and lessons learned
-- **[Presentation](docs/VLA_Presentation.pptx)**: 10-slide overview for video explanation
-- **[Video Script](docs/Video_Script.md)**: Complete narration guide with delivery tips
-- **Code Documentation**: Inline docstrings and type hints throughout
-
-## 🎓 Citation
-
-If you use this code or find the lessons learned helpful, please cite:
-
-```bibtex
-@misc{vla-robotic-manipulation-2026,
-  author = {[Your Name]},
-  title = {Vision-Language-Action Model for Robotic Manipulation: A Case Study in Metric Design},
-  year = {2026},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/yourusername/vla-robotic-manipulation}},
-  note = {Assignment submission with critical findings on success metric design}
-}
-```
 
 ## 🤝 Contributing
 
