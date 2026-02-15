@@ -6,7 +6,7 @@
 
 A lightweight Vision-Language-Action (VLA) model for robotic manipulation tasks. This project implements a complete pipeline from data collection through training to deployment, featuring a 25M parameter architecture that integrates visual perception, natural language understanding, and action prediction.
 
-![VLA Architecture](docs/architecture_diagram.png)
+![VLA Architecture](architecture_diagram.png)
 
 ## 🎯 Project Overview
 
@@ -22,7 +22,7 @@ This project was developed as part of a Physical AI assignment to demonstrate en
 
 During evaluation, a fundamental issue was discovered: the model achieves 100% success on the flawed metric (cube height > 8cm) without actually grasping the cube. This serves as an important case study in the importance of proper success metric design in robotic learning systems.
 
-**See the [Technical Report](docs/VLA_Report.pdf) for detailed analysis and lessons learned.**
+**See the [Technical Report](report.pdf) for detailed analysis and lessons learned.**
 
 ## 📋 Table of Contents
 
