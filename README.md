@@ -63,8 +63,8 @@ During evaluation, a fundamental issue was discovered: the model achieves 100% s
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/vla-robotic-manipulation.git
-cd vla-robotic-manipulation
+git clone https://github.com/SinghAnkur28/VLA_robotic_manipulator.git
+cd VLA_robotic_manipulator
 ```
 
 ### Step 2: Create Virtual Environment
@@ -131,17 +131,7 @@ python -c "import clip; print('CLIP loaded successfully')"
 
 ## 🚀 Quick Start
 
-### Option 1: Use Pre-trained Model (Recommended for Demo)
-
-```bash
-# Download pre-trained checkpoint (if available)
-wget https://your-storage-url/best_model.pth -P checkpoints/
-
-# Launch web interface
-python web_interface.py --checkpoint checkpoints/best_model.pth
-```
-
-### Option 2: Train from Scratch
+### Train from Scratch
 
 ```bash
 # 1. Collect demonstration data
@@ -325,7 +315,7 @@ python -c "import torch; torch.load('checkpoints/path/to/model.pth')"
 ## 📁 Project Structure
 
 ```
-vla-robotic-manipulation/
+VLA_robotic_manipulator/
 ├── 1_collect_demos.py          # Data collection script
 ├── 2_dataset_loader.py          # PyTorch dataset implementation
 ├── 3_model_architecture.py      # VLA model definition
@@ -426,7 +416,7 @@ RGB Images (B, T, 3, 224, 224)
 - **Training Time**: 3 hours (RTX 3080)
 - **Loss Reduction**: 93% from initial
 
-![Training Curves](docs/training_curves.png)
+![Training Curves](training_curves.png)
 
 ### Evaluation Results
 
