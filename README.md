@@ -519,12 +519,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## ⭐ Star History
-
-If you found this project interesting (especially the honest reporting of the metric design issue), please consider giving it a star!
-
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/vla-robotic-manipulation&type=Date)](https://star-history.com/#yourusername/vla-robotic-manipulation&Date)
-
----
-
 **Note**: This project serves as both a technical demonstration and a case study in the importance of proper evaluation methodology in robotic learning systems. The honest reporting of the critical finding is intentional and valuable for the research community.
